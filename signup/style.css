@@ -1,0 +1,267 @@
+.sign-up {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-up .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.sign-up .form {
+  position: absolute;
+  width: 900px;
+  height: 605px;
+  top: 261px;
+  left: 270px;
+  background-color: #e6e6e6;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.sign-up .submit {
+  position: absolute;
+  width: 700px;
+  height: 64px;
+  top: 486px;
+  left: 100px;
+  background-color: #5551ff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.sign-up .text-wrapper {
+  position: absolute;
+  width: 407px;
+  height: 45px;
+  top: 9px;
+  left: 146px;
+  font-family: "Instrument Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.72px;
+  line-height: 24px;
+}
+
+.sign-up .input {
+  top: 358px;
+  position: absolute;
+  width: 700px;
+  height: 64px;
+  left: 100px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.sign-up .email {
+  position: absolute;
+  width: 241px;
+  height: 30px;
+  top: 310px;
+  left: 329px;
+  font-family: "Instrument Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.72px;
+  line-height: 24px;
+}
+
+.sign-up .input-2 {
+  top: 230px;
+  position: absolute;
+  width: 700px;
+  height: 64px;
+  left: 100px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.sign-up .text-wrapper-2 {
+  position: absolute;
+  width: 241px;
+  height: 30px;
+  top: 188px;
+  left: 329px;
+  font-family: "Instrument Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.72px;
+  line-height: 24px;
+}
+
+.sign-up .input-3 {
+  top: 102px;
+  position: absolute;
+  width: 700px;
+  height: 64px;
+  left: 100px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.sign-up .text-wrapper-3 {
+  position: absolute;
+  width: 241px;
+  height: 30px;
+  top: 60px;
+  left: 329px;
+  font-family: "Instrument Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.72px;
+  line-height: 24px;
+}
+
+.sign-up .header-sign-up {
+  position: absolute;
+  width: 411px;
+  height: 87px;
+  top: 158px;
+  left: 514px;
+  font-family: "Instrument Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: -1.08px;
+  line-height: 36px;
+}
+
+.sign-up .top-right {
+  position: absolute;
+  width: 352px;
+  height: 100px;
+  top: 20px;
+  left: 1070px;
+}
+
+.sign-up .cart-icon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 250px;
+  background-color: #d9d9d9;
+  border-radius: 100px;
+}
+
+.sign-up .text-wrapper-4 {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  top: 26px;
+  left: 0;
+  font-family: "Instrument Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #6d6d6d;
+  font-size: 24px;
+  text-align: right;
+  letter-spacing: -0.72px;
+  line-height: 24px;
+}
+
+.sign-up .text-wrapper-5 {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  top: 19px;
+  left: 20px;
+  font-family: "Instrument Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: -1.20px;
+  line-height: 40px;
+}
+/* Inject original CSS here */
+
+/* Additional styles for improved semantics and accessibility */
+body {
+  font-family: "Instrument Sans", Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.sign-up {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.company-name {
+  font-size: 40px;
+  font-weight: 400;
+  color: #000000;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4441cc;
+}
+
+@media (max-width: 768px) {
+  .form {
+    width: 90%;
+    max-width: 500px;
+  }
+}
